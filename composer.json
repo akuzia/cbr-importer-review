@@ -1,0 +1,25 @@
+{
+    "name": "akuzia/cbr-importer",
+    "description": "Central Bank of Russian Federation currency rates importer",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "phpstan/phpstan": "^1.5",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AKuzia\\CBRImporter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kuzia",
+            "email": "kuzia@kuzia.space"
+        }
+    ]
+}
